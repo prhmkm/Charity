@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.97.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.1.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CharityManagementBackend.Core\CharityManagementBackend.Core.csproj" />
+    <ProjectReference Include="..\CharityManagementBackend.Domain\CharityManagementBackend.Domain.csproj" />
+    <ProjectReference Include="..\CharityManagementBackend.Service\CharityManagementBackend.Service.csproj" />
+  </ItemGroup>
+
+</Project>

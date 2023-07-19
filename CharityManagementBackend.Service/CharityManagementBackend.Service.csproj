@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CharityManagementBackend.Core\CharityManagementBackend.Core.csproj" />
+    <ProjectReference Include="..\CharityManagementBackend.Data\CharityManagementBackend.Data.csproj" />
+  </ItemGroup>
+
+</Project>

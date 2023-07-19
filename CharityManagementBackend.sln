@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharityManagementBackend.Api", "CharityManagementBackend.Api\CharityManagementBackend.Api.csproj", "{21EBCDE3-2E3E-4012-BBF5-1F241FBFA638}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharityManagementBackend.Core", "CharityManagementBackend.Core\CharityManagementBackend.Core.csproj", "{BACA8868-11CC-4787-A56D-092711E2D06A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharityManagementBackend.Data", "CharityManagementBackend.Data\CharityManagementBackend.Data.csproj", "{E3F5E535-A2A0-41A0-ABCE-2EC1F0637AAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharityManagementBackend.Domain", "CharityManagementBackend.Domain\CharityManagementBackend.Domain.csproj", "{322463B9-9B54-4923-B55C-A3E2EF213A9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharityManagementBackend.Service", "CharityManagementBackend.Service\CharityManagementBackend.Service.csproj", "{97748AA4-FE0F-4AD7-BAFA-72459320F715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21EBCDE3-2E3E-4012-BBF5-1F241FBFA638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EBCDE3-2E3E-4012-BBF5-1F241FBFA638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EBCDE3-2E3E-4012-BBF5-1F241FBFA638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EBCDE3-2E3E-4012-BBF5-1F241FBFA638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BACA8868-11CC-4787-A56D-092711E2D06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACA8868-11CC-4787-A56D-092711E2D06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACA8868-11CC-4787-A56D-092711E2D06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACA8868-11CC-4787-A56D-092711E2D06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F5E535-A2A0-41A0-ABCE-2EC1F0637AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F5E535-A2A0-41A0-ABCE-2EC1F0637AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F5E535-A2A0-41A0-ABCE-2EC1F0637AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F5E535-A2A0-41A0-ABCE-2EC1F0637AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322463B9-9B54-4923-B55C-A3E2EF213A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322463B9-9B54-4923-B55C-A3E2EF213A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322463B9-9B54-4923-B55C-A3E2EF213A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322463B9-9B54-4923-B55C-A3E2EF213A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97748AA4-FE0F-4AD7-BAFA-72459320F715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97748AA4-FE0F-4AD7-BAFA-72459320F715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97748AA4-FE0F-4AD7-BAFA-72459320F715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97748AA4-FE0F-4AD7-BAFA-72459320F715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FEEC523-45D8-40D9-AACD-38666502DFD9}
+	EndGlobalSection
+EndGlobal
